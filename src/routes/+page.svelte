@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { Heading, P, Span } from 'flowbite-svelte';
 	import { A } from 'flowbite-svelte';
 </script>
@@ -8,5 +9,5 @@
 		<Span gradient>MK8DX</Span> Cool Tools.
 	</Heading>
 
-	<A class="font-medium text-2xl hover:underline" href="/bullet">Bullet Extensions</A>
+	<A class="font-medium text-2xl hover:underline" href="{base}/bullet">Bullet Extensions</A>
 </div>
