@@ -23,6 +23,12 @@
 		<Span gradient>Bullet</Span> Extensions.
 	</Heading>
 
+	<P class="text-center mb-4">
+		Something is missing? Bugs? Reach out to me on Discord
+		<Span gradient>@true_ender</Span>, or add it yourself! PRs welcome on
+		<A href="https://github.com/lipe-dev/mk8dx">GitHub</A>
+	</P>
+
 	<Input placeholder="Search Stage" size="lg" bind:value />
 
 	<Hr />
@@ -61,10 +67,10 @@
 				</GradientButton>
 			</Card>
 		{:else}
-			<P
-				>No extensions found. Should there be results here? Reach out to me on Discord <Span
-					gradient>@true_ender</Span
-				>
+			<P>
+				No extensions/stages found. Should there be results here? Reach out to me on Discord
+				<Span gradient>@true_ender</Span>, or add it yourself! PRs welcome on
+				<A href="https://github.com/lipe-dev/mk8dx">GitHub</A>
 			</P>
 		{/each}
 	</div>
