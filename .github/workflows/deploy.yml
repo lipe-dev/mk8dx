@@ -35,6 +35,8 @@ jobs:
         run: pnpm install
 
       - name: build
+        env:
+          BASE_PATH: '/mk8dx'
         run: |
           pnpm run build
           touch build/.nojekyll
