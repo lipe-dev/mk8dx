@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { A, Card, GradientButton, Heading, Hr, Input, Modal, P, Span } from 'flowbite-svelte';
 	import { extensions } from '$lib/data/extensions';
+	import { base } from '$app/paths';
 
 	let value = '';
 
@@ -28,7 +29,7 @@
 
 	<div class="flex flex-row gap-4">
 		{#each extensionsFiltered as extension}
-			<Card img={extension.image} class="mb-4 relative overflow-hidden">
+			<Card img={base + extension.image} class="mb-4 relative overflow-hidden">
 				<div class="absolute top-0 right-0 w-24 h-16">
 					<img src={extension.stage.image} alt="" class="w-full h-full object-cover" />
 				</div>
